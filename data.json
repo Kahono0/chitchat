@@ -1,0 +1,21 @@
+{
+    "StudentId": "A00123456",
+    "StudentPass": "123456",
+    "Food":[
+        {
+            "Id":"1",
+            "Name":"Rice",
+            "Quantity":1
+        },
+        {
+            "Id":"1",
+            "Name":"Noodle",
+            "Quantity":1
+        },
+        {
+            "Id":"1",
+            "Name":"Egg",
+            "Quantity":1
+        }
+    ]
+}
