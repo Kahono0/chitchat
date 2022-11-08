@@ -44,7 +44,7 @@ func getStudent(c *fiber.Ctx) error {
 	if err := db.Where("id = ?", id).First(&student).Error; err != nil {
 		return c.JSON(fiber.Map{
 			"status": "ERROR",
-			"err":    err,
+			"err":    "Student Not Found",
 		})
 	}
 	return c.JSON(fiber.Map{
@@ -74,5 +74,5 @@ func updateStudent(c *fiber.Ctx) error {
 		"status": "SUCCESS",
 		"data":   "Items Updated Successfully",
 	})
-	
+
 }
